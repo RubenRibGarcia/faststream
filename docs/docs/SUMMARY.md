@@ -41,7 +41,7 @@ search:
         - [HTTP Async Frameworks](getting-started/integrations/frameworks/index.md)
         - [FastAPI Plugin](getting-started/integrations/fastapi/index.md)
         - [Django](getting-started/integrations/django/index.md)
-    - [CLI commands](getting-started/cli/index.md)
+    - [CLI](getting-started/cli/index.md)
     - [ASGI](getting-started/asgi.md)
     - [OpenTelemetry](getting-started/opentelemetry/index.md)
     - [Logging](getting-started/logging.md)
@@ -177,6 +177,7 @@ search:
                 - [TestApp](public_api/faststream/nats/TestApp.md)
                 - [TestNatsBroker](public_api/faststream/nats/TestNatsBroker.md)
             - opentelemetry
+                - [Baggage](public_api/faststream/opentelemetry/Baggage.md)
                 - [TelemetryMiddleware](public_api/faststream/opentelemetry/TelemetryMiddleware.md)
                 - [TelemetrySettingsProvider](public_api/faststream/opentelemetry/TelemetrySettingsProvider.md)
             - rabbit
@@ -795,8 +796,11 @@ search:
                     - [TestNatsBroker](api/faststream/nats/testing/TestNatsBroker.md)
                     - [build_message](api/faststream/nats/testing/build_message.md)
             - opentelemetry
+                - [Baggage](api/faststream/opentelemetry/Baggage.md)
                 - [TelemetryMiddleware](api/faststream/opentelemetry/TelemetryMiddleware.md)
                 - [TelemetrySettingsProvider](api/faststream/opentelemetry/TelemetrySettingsProvider.md)
+                - baggage
+                    - [Baggage](api/faststream/opentelemetry/baggage/Baggage.md)
                 - consts
                     - [MessageAction](api/faststream/opentelemetry/consts/MessageAction.md)
                 - middleware
